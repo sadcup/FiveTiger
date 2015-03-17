@@ -14,6 +14,9 @@
 		E94C8AD71AB44BEC00603DFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94C8AD61AB44BEC00603DFB /* Images.xcassets */; };
 		E94C8ADA1AB44BEC00603DFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94C8AD81AB44BEC00603DFB /* LaunchScreen.xib */; };
 		E94C8AE61AB44BEC00603DFB /* FiveTigerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E94C8AE51AB44BEC00603DFB /* FiveTigerTests.m */; };
+		E99048571AB550AD0023021C /* ChessBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E99048561AB550AD0023021C /* ChessBoardView.m */; };
+		E990485A1AB69A100023021C /* Chess.m in Sources */ = {isa = PBXBuildFile; fileRef = E99048591AB69A100023021C /* Chess.m */; };
+		E990485D1AB6A51A0023021C /* ChessPieceView.m in Sources */ = {isa = PBXBuildFile; fileRef = E990485C1AB6A51A0023021C /* ChessPieceView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		E94C8ADF1AB44BEC00603DFB /* FiveTigerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FiveTigerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94C8AE41AB44BEC00603DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E94C8AE51AB44BEC00603DFB /* FiveTigerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveTigerTests.m; sourceTree = "<group>"; };
+		E99048551AB550AD0023021C /* ChessBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessBoardView.h; sourceTree = "<group>"; };
+		E99048561AB550AD0023021C /* ChessBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessBoardView.m; sourceTree = "<group>"; };
+		E99048581AB69A100023021C /* Chess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chess.h; sourceTree = "<group>"; };
+		E99048591AB69A100023021C /* Chess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chess.m; sourceTree = "<group>"; };
+		E990485B1AB6A51A0023021C /* ChessPieceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChessPieceView.h; sourceTree = "<group>"; };
+		E990485C1AB6A51A0023021C /* ChessPieceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChessPieceView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +90,12 @@
 		E94C8AC81AB44BEC00603DFB /* FiveTiger */ = {
 			isa = PBXGroup;
 			children = (
-				E94C8ACD1AB44BEC00603DFB /* AppDelegate.h */,
-				E94C8ACE1AB44BEC00603DFB /* AppDelegate.m */,
+				E99048581AB69A100023021C /* Chess.h */,
+				E99048591AB69A100023021C /* Chess.m */,
+				E990485B1AB6A51A0023021C /* ChessPieceView.h */,
+				E990485C1AB6A51A0023021C /* ChessPieceView.m */,
+				E99048551AB550AD0023021C /* ChessBoardView.h */,
+				E99048561AB550AD0023021C /* ChessBoardView.m */,
 				E94C8AD01AB44BEC00603DFB /* ViewController.h */,
 				E94C8AD11AB44BEC00603DFB /* ViewController.m */,
 				E94C8AD31AB44BEC00603DFB /* Main.storyboard */,
@@ -96,6 +109,8 @@
 		E94C8AC91AB44BEC00603DFB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E94C8ACD1AB44BEC00603DFB /* AppDelegate.h */,
+				E94C8ACE1AB44BEC00603DFB /* AppDelegate.m */,
 				E94C8ACA1AB44BEC00603DFB /* Info.plist */,
 				E94C8ACB1AB44BEC00603DFB /* main.m */,
 			);
@@ -221,7 +236,10 @@
 			files = (
 				E94C8AD21AB44BEC00603DFB /* ViewController.m in Sources */,
 				E94C8ACF1AB44BEC00603DFB /* AppDelegate.m in Sources */,
+				E990485D1AB6A51A0023021C /* ChessPieceView.m in Sources */,
+				E990485A1AB69A100023021C /* Chess.m in Sources */,
 				E94C8ACC1AB44BEC00603DFB /* main.m in Sources */,
+				E99048571AB550AD0023021C /* ChessBoardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +432,7 @@
 				E94C8AEB1AB44BEC00603DFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E94C8AEC1AB44BEC00603DFB /* Build configuration list for PBXNativeTarget "FiveTigerTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +441,7 @@
 				E94C8AEE1AB44BEC00603DFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
