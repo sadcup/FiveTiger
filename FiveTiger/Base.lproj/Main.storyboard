@@ -64,6 +64,9 @@
                                         <include reference="h2N-hK-vOz"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="clearAll:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vi0-bG-jHU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5af-bU-w1x">
                                 <rect key="frame" x="281" y="510" width="48" height="48"/>
@@ -89,6 +92,9 @@
                                         <include reference="dk3-jd-gWN"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="backOneStep:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AO8-oV-tat"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="White" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6BJ-lF-Ezs">
                                 <rect key="frame" x="116" y="440" width="44" height="21"/>
@@ -223,6 +229,8 @@
                     </view>
                     <connections>
                         <outlet property="chessBoardView" destination="Fzu-OA-rDC" id="Zps-nt-HdZ"/>
+                        <outlet property="redPoints" destination="a8V-uK-a1c" id="Kxw-xn-VQZ"/>
+                        <outlet property="whitePoints" destination="kXf-uB-Auc" id="fEx-xz-scd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
