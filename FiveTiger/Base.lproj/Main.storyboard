@@ -3,6 +3,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -169,15 +170,15 @@
                                 <exclude reference="6mX-5N-LZU"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="6JN-2p-aUl"/>
-                                <exclude reference="6h8-dU-Kgk"/>
-                                <exclude reference="S5s-7k-gfl"/>
-                                <exclude reference="e6z-Zi-J5k"/>
                                 <exclude reference="kg4-su-3md"/>
                                 <exclude reference="x5K-OM-xJt"/>
                                 <exclude reference="yBr-Tq-Sjg"/>
                                 <exclude reference="4Kn-sz-XWT"/>
                                 <exclude reference="GPb-1b-nwf"/>
+                                <exclude reference="6JN-2p-aUl"/>
+                                <exclude reference="6h8-dU-Kgk"/>
+                                <exclude reference="S5s-7k-gfl"/>
+                                <exclude reference="e6z-Zi-J5k"/>
                                 <exclude reference="0xT-ge-GBe"/>
                                 <exclude reference="CTm-E2-ocW"/>
                                 <exclude reference="ksy-IG-35I"/>
@@ -203,15 +204,15 @@
                                 <include reference="6mX-5N-LZU"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="6JN-2p-aUl"/>
-                                <include reference="6h8-dU-Kgk"/>
-                                <include reference="S5s-7k-gfl"/>
-                                <include reference="e6z-Zi-J5k"/>
                                 <include reference="kg4-su-3md"/>
                                 <include reference="x5K-OM-xJt"/>
                                 <include reference="yBr-Tq-Sjg"/>
                                 <include reference="4Kn-sz-XWT"/>
                                 <include reference="GPb-1b-nwf"/>
+                                <include reference="6JN-2p-aUl"/>
+                                <include reference="6h8-dU-Kgk"/>
+                                <include reference="S5s-7k-gfl"/>
+                                <include reference="e6z-Zi-J5k"/>
                                 <include reference="0xT-ge-GBe"/>
                                 <include reference="CTm-E2-ocW"/>
                                 <include reference="ksy-IG-35I"/>

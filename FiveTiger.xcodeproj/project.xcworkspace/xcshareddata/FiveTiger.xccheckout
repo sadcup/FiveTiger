@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>63A00590-71E4-4FA8-A324-CBF6B3648162</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FiveTiger</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D2E32293FBDE175F95E10CB509ACC8741DD820BA</key>
+		<string>https://github.com/sadcup/FiveTiger.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FiveTiger.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D2E32293FBDE175F95E10CB509ACC8741DD820BA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/sadcup/FiveTiger.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D2E32293FBDE175F95E10CB509ACC8741DD820BA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D2E32293FBDE175F95E10CB509ACC8741DD820BA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FiveTiger</string>
+		</dict>
+	</array>
+</dict>
+</plist>
